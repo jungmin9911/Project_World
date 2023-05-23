@@ -141,6 +141,19 @@ a { color: black;   text-decoration: none; }
 .purpleBtn {display: inline-block; padding: 0 70px; height: 56px; line-height: 54px; font-size: 18px; 
 	color: #fff; text-align: center; border-radius: 28px; background: rgb(111, 35, 249);}
 
+/* qna */
+#qna_category_top_menu {font-weight:bold; font-size:100%; margin :0 auto;text-align: center;  }
+#qna_category_top_menu a {display: inline-block; text-align: center;font-size: 22px;margin-right: 10px;}
+#qna_wirte{position: relative; width:1180px; height:600px; margin: 0px auto;}
+#qna_write form {   margin: 10px 0 0 0;   width: 1160px;text-align:center;margin: 0px auto;}
+#qna_write input[type="text"],
+ #qna_write textarea {font-size: 18px;text-align: left;}
+#qna_write form fieldset { padding: 10px 0 20px 5px;   border: none;width:1150px;text-align:center;margin: 0px auto;}
+#qna_write form label {  width: 200px;    float: left;    margin: 5px 0;  font-weight:bold;}
+#qna_write form input { margin: 5px 0;    border: 1px solid #999;   }
+#qna_write form .submit{position:relative; font-size: 20px;padding-bottom:10px; width:200px; height:56px;color: #fff; background:rgb(111, 35, 249);;font-weight:bold;border-radius: 28px;border:1px solid #6317ed}
+#qna_write form  .cancel {position:relative; font-size: 20px;padding-bottom:10px; width:200px; height:56px;color:#6317ed; background:white;font-weight:bold;border-radius: 28px;border:1px solid #6317ed}
+#qna_table{font-size: 13px;width: 100%;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 
 
 

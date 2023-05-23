@@ -25,7 +25,11 @@ public class ActionFactory {
 		else if( command.equals("logout") ) ac = new LogoutAction();
 		else if( command.equals("attractionForm") ) ac = new AttractionFormAction();
 		else if( command.equals("attractionDetailForm") ) ac = new AttractionDetailFormAction();
-		
+		else if( command.equals("qna") ) ac = new QnaAction();
+		else if( command.equals("qnaList") ) ac = new QnaListAction();
+		else if( command.equals("qnaView") ) ac = new QnaViewAction();
+		else if( command.equals("qnaWriteForm") ) ac = new QnaWriteFormAction();
+		else if( command.equals("qnaWrite") ) ac = new QnaWriteAction();
 		
 		return ac;
 	}
