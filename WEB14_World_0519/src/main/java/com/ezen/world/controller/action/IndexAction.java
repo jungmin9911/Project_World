@@ -11,6 +11,8 @@ import javax.servlet.http.HttpServletResponse;
 import com.ezen.world.dao.AttractionDao;
 import com.ezen.world.dto.AttractionVO;
 
+
+
 public class IndexAction implements Action {
 
 	@Override
