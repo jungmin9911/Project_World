@@ -9,6 +9,12 @@ import com.ezen.world.controller.action.member.ContractAction;
 import com.ezen.world.controller.action.member.JoinFormAction;
 import com.ezen.world.controller.action.member.LoginFormAction;
 import com.ezen.world.controller.action.member.LogoutAction;
+import com.ezen.world.controller.action.qna.QnaAction;
+import com.ezen.world.controller.action.qna.QnaListAction;
+import com.ezen.world.controller.action.qna.QnaViewAction;
+import com.ezen.world.controller.action.qna.QnaWriteAction;
+import com.ezen.world.controller.action.qna.QnaWriteFormAction;
+
 
 public class ActionFactory {
 	private ActionFactory() {}
@@ -25,6 +31,7 @@ public class ActionFactory {
 		else if( command.equals("logout") ) ac = new LogoutAction();
 		else if( command.equals("attractionForm") ) ac = new AttractionFormAction();
 		else if( command.equals("attractionDetailForm") ) ac = new AttractionDetailFormAction();
+		/* qna */
 		else if( command.equals("qna") ) ac = new QnaAction();
 		else if( command.equals("qnaList") ) ac = new QnaListAction();
 		else if( command.equals("qnaView") ) ac = new QnaViewAction();
