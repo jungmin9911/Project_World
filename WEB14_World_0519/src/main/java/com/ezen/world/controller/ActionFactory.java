@@ -9,6 +9,11 @@ import com.ezen.world.controller.action.member.ContractAction;
 import com.ezen.world.controller.action.member.JoinFormAction;
 import com.ezen.world.controller.action.member.LoginFormAction;
 import com.ezen.world.controller.action.member.LogoutAction;
+import com.ezen.world.controller.action.qna.QnaAction;
+import com.ezen.world.controller.action.qna.QnaListAction;
+import com.ezen.world.controller.action.qna.QnaViewAction;
+import com.ezen.world.controller.action.qna.QnaWriteAction;
+import com.ezen.world.controller.action.qna.QnaWriteFormAction;
 
 public class ActionFactory {
 	private ActionFactory() {}
